@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Information for HTML</title>
+  </head>
+  <style>
+    #heading-tag {
+      margin: 5rem;
+      /* font-family: sans-serif; */
+    }
+    h1 {
+      background-color: green;
+      color: #fff;
+      padding: 8px;
+      text-align: center;
+      font-size: 40px;
+      font-weight: 700;
+    }
+    .page_details {
+      margin-left: 22.5rem;
+      font-size: 18px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 20px;
+      /* text-align: center; */
+      /* margin-left: 20px; */
+      /* align-self: flex-start; */
+    }
+  </style>
+  <body>
+    <div id="heading-tag">
+      <h1>Personal Information Page for HTML</h1>
+      <form class="page_details">
+        <label
+          >First Name :
+          <input type="text" placeholder="Enter Your First Name" required
+        /></label>
+
+        <label
+          >Last Name :
+          <input type="text" placeholder="Enter Your Last Name" required
+        /></label>
+
+        <label
+          >Email :
+          <input type="email" placeholder="adce@gmail.com" required />
+        </label>
+        <label>Password : <input type="password" required /></label>
+
+        <label
+          >Phone Number : <input type="number" placeholder="133654789" required
+        /></label>
+
+        <label>Date of Birth : <input type="date" required /></label>
+
+        <label
+          >Country :
+          <select>
+            <option>Select Your Option :</option>
+            <option>India</option>
+            <option>USA</option>
+            <option>UK</option>
+            <option>Russia</option>
+          </select>
+        </label>
+        <input type="submit" />
+
+        <button>Clear</button>
+      </form>
+    </div>
+  </body>
+</html>
